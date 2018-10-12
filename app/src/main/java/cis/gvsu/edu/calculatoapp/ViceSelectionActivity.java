@@ -54,12 +54,12 @@ public class ViceSelectionActivity extends AppCompatActivity {
 
         /* Chooses spinner based on the mode that is selected */
         if(mode.equals("length")){
-            //New array of units pertaining to length
+            //Add length choices
             choices.add("Yards");
             choices.add("Meters");
             choices.add("Miles");
         } else {
-            //New array of units pertaining to
+            //Add volume choices
             choices.add("Gallons");
             choices.add("Liters");
             choices.add("Quarts");
