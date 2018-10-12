@@ -64,13 +64,13 @@ public class InputActivity extends AppCompatActivity {
         modeBtn = findViewById(R.id.modeBtn);
         changeHints();
 
-        /* Erasing Other Inputs On Click */
+        /* When focus changes, onFocusChange is called. */
         input1.setOnFocusChangeListener((View v, boolean b) -> onFocusChange(v, b));
         input2.setOnFocusChangeListener((View v, boolean b) -> onFocusChange(v, b));
 
         clearBtn.setOnClickListener(v -> clearFields());
-        modeBtn.setOnClickListener(v -> swapMode());;
-        calcBtn.setOnClickListener(v -> calculate());;
+        modeBtn.setOnClickListener(v -> swapMode());
+        calcBtn.setOnClickListener(v -> calculate());
     }
 
     /* Clears the text fields when called */
