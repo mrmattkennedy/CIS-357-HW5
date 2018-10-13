@@ -19,7 +19,7 @@
             android:layout_weight="0"
             android:ems="10"
             android:hint="Enter a number"
-            android:inputType="numberDecimal" />
+            android:inputType="numberSigned|numberDecimal" />
 
         <TextView
             android:id="@+id/inputUnit1"
@@ -42,7 +42,7 @@
             android:layout_weight="0"
             android:ems="10"
             android:hint="Enter a number"
-            android:inputType="numberDecimal" />
+            android:inputType="numberSigned|numberDecimal" />
 
         <TextView
             android:id="@+id/inputUnit2"

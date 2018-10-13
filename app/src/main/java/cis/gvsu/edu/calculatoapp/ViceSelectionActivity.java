@@ -18,9 +18,6 @@ import java.util.List;
  *
  */
 
-
-
-import edu.gvsu.cis.convcalc.UnitsConverter;
 /*
  * Main function of the class is to implements 'spinners', or choices for users to select
  * when attempting to use the conversion app

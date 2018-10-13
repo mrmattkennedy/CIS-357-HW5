@@ -9,13 +9,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/fromText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="From" />
@@ -23,19 +23,19 @@
         <Spinner
             android:id="@+id/inputSpinner1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/toText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="To" />
@@ -43,7 +43,7 @@
         <Spinner
             android:id="@+id/inputSpinner2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
 

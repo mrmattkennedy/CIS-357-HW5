@@ -6,7 +6,7 @@
  @version $Revision: 1.0 $ $Date: 2018/10/01 22:15:25 $
  **/
 
-package edu.gvsu.cis.convcalc;
+package cis.gvsu.edu.calculatoapp;
 
 import java.util.HashMap;
 
